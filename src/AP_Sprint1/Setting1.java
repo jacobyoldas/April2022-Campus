@@ -5,6 +5,6 @@ public class Setting1 {
 
         System.out.println("Hello");
         System.out.println("BYE");
-        System.out.println("Food");
+        System.out.println("Foods");
     }
 }
