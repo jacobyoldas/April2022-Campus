@@ -18,7 +18,7 @@ public class TC_CourseIcon_1 {
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     driver.get("https://campus.techno.study/");
-    driver.manage().window().maximize();
+    driver.manage().window().maximize(); /** selam genclerrrr */
 
     WebElement acceptCookies = driver.findElement(By.xpath("//button[text()='Accept all cookies']"));
     acceptCookies.click();
