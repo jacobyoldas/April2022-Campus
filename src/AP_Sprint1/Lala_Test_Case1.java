@@ -40,6 +40,7 @@ public class Lala_Test_Case1 {
 
         Thread.sleep(3000);
 
+
         String currentURL =driver.getCurrentUrl();
         System.out.println("Current URL : " + currentURL);
 
