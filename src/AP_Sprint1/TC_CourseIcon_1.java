@@ -18,18 +18,20 @@ public class TC_CourseIcon_1 {
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     driver.get("https://campus.techno.study/");
-    driver.manage().window().maximize(); /** iyi aksamlarr */
+    driver.manage().window().maximize();
 
     WebElement acceptCookies = driver.findElement(By.xpath("//button[text()='Accept all cookies']"));
     acceptCookies.click();
     WebElement username = driver.findElement(By.xpath("//input[@placeholder='Username']"));
-    username.sendKeys("ayme_bump3ai@band.fny");
+    username.sendKeys("yasinyoldas6666@gmail.com");
     WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-    password.sendKeys("431131");
+    password.sendKeys("42386032480");
     WebElement login = driver.findElement(By.xpath("//button[@aria-label='LOGIN']"));
     login.click();
+    WebElement details = driver.findElement(By.xpath("(//*[text()=' Details '])[2]"));
+    details.click();
 
-//    WebElement frameIndex= driver.findElement(By.xpath("(//*[@id='gsi_488244_35548'])[1]"));
+    WebElement frameIndex= driver.findElement(By.xpath("(//*[@id='gsi_488244_35548'])[1]"));
 //    wait.until(ExpectedConditions.visibilityOf(frameIndex));
 //    driver.switchTo().frame(frameIndex);
 //
