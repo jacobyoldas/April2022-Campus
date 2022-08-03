@@ -32,7 +32,7 @@ public class TC_CourseIcon_1 {
     details.click();
 
     WebElement frameIndex= driver.findElement(By.xpath("(//*[@id='gsi_488244_35548'])[1]"));
-//    wait.until(ExpectedConditions.visibilityOf(frameIndex));
+    wait.until(ExpectedConditions.visibilityOf(frameIndex));
 //    driver.switchTo().frame(frameIndex);
 //
 //    WebElement signInWithGoogle = driver.findElement(By.xpath("//span[text()='Sign in with Google']"));
