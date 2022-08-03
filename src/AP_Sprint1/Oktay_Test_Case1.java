@@ -40,8 +40,7 @@ public class Oktay_Test_Case1 {
         WebElement clickSettingOption = driver.findElement(By.xpath("(//button[@role='menuitem'])[4]"));
         clickSettingOption.click();
 
-
-        WebElement settingWindow = new WebDriverWait(driver, Duration.ofSeconds(5)).
+            WebElement settingWindow = new WebDriverWait(driver, Duration.ofSeconds(5)).
                 until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='cdk-overlay-3']")));
         boolean settingWindowPopup = settingWindow.isDisplayed();
 
