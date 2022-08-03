@@ -1,3 +1,5 @@
+package AP_Sprint1;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,11 +8,11 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class Talal_TC1 {
-
+public class Talal_testCase {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver","C:\\Talal\\chromedriver.exe");
+
+        System.setProperty("webdriver.chrome.driver", "C:\\Talal\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -33,9 +35,7 @@ public class Talal_TC1 {
         userIcon.click();
 
         WebElement languageIcon = driver.findElement(By.cssSelector("button[class='mat-focus-indicator mat-menu-trigger language-button mat-menu-item mat-menu-item-submenu-trigger ng-tns-c186-5 ng-star-inserted']"));
-        Actions actions =new Actions(driver);
+        Actions actions = new Actions(driver);
         actions.moveToElement(languageIcon).perform();
-
     }
-
 }
