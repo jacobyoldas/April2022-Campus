@@ -46,7 +46,6 @@ public class Oktay_Test_Case1 {
         boolean settingWindowPopup = settingWindow.isDisplayed();
 
         System.out.println("'"+settingWindowPopup+"'"+" Popup Window Displayed! ");
-// Thankss
 
         driver.quit();
 
