@@ -21,6 +21,7 @@ public class Tugce_Test_2 {
         WebElement inputUserName = driver.findElement(By.id("mat-input-0"));
         inputUserName.sendKeys("tugcekose07@hotmail.com");
 
+        //merhaba tugce
         WebElement inputPassword = driver.findElement(By.id("mat-input-1"));
         inputPassword.sendKeys("1234abcd");
 
