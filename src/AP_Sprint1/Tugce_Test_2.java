@@ -27,7 +27,6 @@ public class Tugce_Test_2 {
         WebElement clickLogin = driver.findElement(By.xpath("(//span[@class='mat-button-wrapper'])[1]"));
         clickLogin.click();
 
-
         WebElement clickCourse = driver.findElement(By.cssSelector("span[class='mat-button-wrapper']"));
         clickCourse.click();
 
