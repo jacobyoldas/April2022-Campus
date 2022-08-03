@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class Oktay_Test_Case {
+public class Oktay_Test_Case1 {
 
     public static void main(String[] args) {
 
