@@ -14,6 +14,7 @@ public class Tugce_Test1 {
 
         driver.get("https://campus.techno.study/user-courses");
         driver.manage().window().maximize();
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         WebElement inputUserName = driver.findElement(By.id("mat-input-0"));
