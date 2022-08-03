@@ -46,7 +46,12 @@ public class Oktay_Test_Case1 {
 
         System.out.println("'"+settingWindowPopup+"'"+" Popup Window Displayed! ");
 
-        driver.quit();
+        WebElement defaultLanguageClick = driver.findElement(By.xpath("//mat-select[@id='mat-select-0']"));
+        defaultLanguageClick.click();
+        WebElement turkishLanguage = driver.findElement(By.xpath("(//span[@class='mat-option-text'])[2]"));
+        turkishLanguage.click();
+
+       // driver.quit();
 
     }
 }
