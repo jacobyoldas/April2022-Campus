@@ -49,6 +49,7 @@ public class Oktay_Test_Case {
 
 
         driver.quit();
+        driver.quit();
 
     }
 }
