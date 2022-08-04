@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class Talal_testCase {
+public class Talal_TestCase1 {
     public static void main(String[] args) throws InterruptedException {
 
 
