@@ -7,8 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Tugce_Test1 {
+public class Tugce_Test_01 {
+
     public static void main(String[] args) throws InterruptedException {
+
         System.setProperty("webdriver.chrome.driver","/Users/tugce/Desktop/Drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 
@@ -40,3 +42,5 @@ public class Tugce_Test1 {
 
     }
 }
+
+
