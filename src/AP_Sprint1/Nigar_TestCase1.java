@@ -7,5 +7,7 @@ public class Nigar_TestCase1 {
 
         System.out.println("everyone");
 
+        System.out.println("hey");
+
     }
 }
