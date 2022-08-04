@@ -52,5 +52,5 @@ public class Oktay_TC_FirstLastNameDisabled {
         System.out.println("Last Name name is disabled: " + isDisabled2);
 
     }
-    }
+
 }
