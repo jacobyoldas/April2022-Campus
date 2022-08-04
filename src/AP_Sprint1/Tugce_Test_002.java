@@ -46,6 +46,8 @@ public class Tugce_Test_002 {
                 System.out.println("There is syllabus for this course.");
             } else System.out.println("There is no syllabus for this course");
 
+
+
         }
     }
 }
