@@ -26,6 +26,7 @@ public class Yoldas_Test1 {
     password.sendKeys("431131");
     WebElement login = driver.findElement(By.xpath("//button[@aria-label='LOGIN']"));
     login.click();
+    System.out.println("hello");
 
 //    WebElement frameIndex= driver.findElement(By.xpath("(//*[@id='gsi_488244_35548'])[1]"));
 //    wait.until(ExpectedConditions.visibilityOf(frameIndex));
