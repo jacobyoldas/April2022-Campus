@@ -53,7 +53,7 @@ public class Yoldas_Test1 {
 //    driver.switchTo().window(mainWindow);
 
 
-    //driver.quit();
+    driver.quit();
   }
 
 }
