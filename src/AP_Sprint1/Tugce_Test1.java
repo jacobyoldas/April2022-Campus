@@ -37,5 +37,6 @@ public class Tugce_Test1 {
         System.out.println("Details and syllabus buttons are open   "  + detailsAndSyllabusShown);
 
 
+
     }
 }
