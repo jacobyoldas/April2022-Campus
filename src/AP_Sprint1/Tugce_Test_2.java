@@ -5,16 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Tugce_Test_2 {
-
-    public static void locateSyllabusButtons() {
-       WebDriver driver1 = new ChromeDriver();
-        WebElement locationOfSyllabusButton = driver1.findElement(By.xpath("(//*[text()=' Syllabus '])[i]"));
-        locationOfSyllabusButton.click();
-    }
-
 
 
     public static void main(String[] args) {
@@ -42,15 +36,38 @@ public class Tugce_Test_2 {
 
 
 
-        WebElement clickSyllabus = driver.findElement(By.xpath("(//*[text()=' Syllabus '])[4]"));
-        clickSyllabus.click();
+        //WebElement clickSyllabus = driver.findElement(By.xpath("(//*[text()=' Syllabus '])[4]"));
+        //clickSyllabus.click();
 
-        WebElement syllabusShown = driver.findElement(By.xpath("(//div[@class='ng-star-inserted'])[17]"));
-        if (syllabusShown.isDisplayed()){
-            System.out.println("There is syllabus for this course.");
-        }else System.out.println("There is no syllabus for this course");
+        List<WebElement> clickSyllabus = driver.findElements(By.xpath("(//*[text()=' Syllabus '])"));
+        for (int i =0; i< clickSyllabus.size(); i++){
+            clickSyllabus.get(i).click();
+
+            WebElement syllabusShown = driver.findElement(By.xpath("(//div[@class='ng-star-inserted'])[17]"));
+            if (syllabusShown.isDisplayed()){
+                System.out.println("There is syllabus for this course.");
+            }else System.out.println("There is no syllabus for this course");
+
+        }
 
 
+
+
+
+        /**for (int i = 1; i<5; i++){
+            WebElement locationOfSyllabusButton = driver.findElement(By.xpath("(//*[text()=' Syllabus '])[i]"));
+            locationOfSyllabusButton.click();
+            WebElement syllabusShown = driver.findElement(By.xpath("(//div[@class='ng-star-inserted'])[17]"));
+            if (syllabusShown.isDisplayed()){
+               System.out.println("There is syllabus for this course.");
+            }else System.out.println("There is no syllabus for this course");
+
+            driver.navigate().back();
+        }
+
+
+
+        } **/
 
         driver.quit();
 
