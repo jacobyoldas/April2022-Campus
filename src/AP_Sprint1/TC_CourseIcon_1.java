@@ -52,7 +52,7 @@ public class TC_CourseIcon_1 {
 //    WebElement nextButton= driver.findElement(By.xpath("//*[@id='identifierNext']/div/button"));
 //    nextButton.click();
 //    WebElement tryAgainButton = driver.findElement(By.xpath("//*[@id='next']/div/button"));
-//    tryAgainButton.click();
+//    tryAg ainButton.click();
 //
 //    driver.switchTo().window(mainWindow);
 
