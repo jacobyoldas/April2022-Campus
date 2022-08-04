@@ -25,7 +25,7 @@ public class TC_CourseIcon_1 {
     WebElement username = driver.findElement(By.xpath("//input[@placeholder='Username']"));
     username.sendKeys("yasinyoldas6666@gmail.com");
     WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-    password.sendKeys("42386032480");
+    password.sendKeys("123c");
     WebElement login = driver.findElement(By.xpath("//button[@aria-label='LOGIN']"));
     login.click();
     WebElement details = driver.findElement(By.xpath("(//*[text()=' Details '])[2]"));
