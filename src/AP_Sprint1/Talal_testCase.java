@@ -26,7 +26,7 @@ public class Talal_testCase {
         username.sendKeys("talalshatra@yahoo.com");
 
         WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-        password.sendKeys("12345");
+        password.sendKeys("123abc");
 
         WebElement login = driver.findElement(By.xpath("//button[@aria-label='LOGIN']"));
         login.click();
