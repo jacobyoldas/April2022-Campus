@@ -37,5 +37,7 @@ public class Talal_testCase {
         WebElement languageIcon = driver.findElement(By.cssSelector("button[class='mat-focus-indicator mat-menu-trigger language-button mat-menu-item mat-menu-item-submenu-trigger ng-tns-c186-5 ng-star-inserted']"));
         Actions actions = new Actions(driver);
         actions.moveToElement(languageIcon).perform();
+
+        driver.quit();
     }
 }
